@@ -1,0 +1,17 @@
+.popup {
+  position: absolute;
+  right: 50px;
+  background-color: #333;
+  color: #fff;
+  width: 250px;
+  height: 90vh;
+  transition: all ease 2s;
+  opacity: 0;
+  border-radius: 15px;
+  padding: 10px;
+}
+
+.popupOn {
+  z-index: 1000;
+  opacity: 1;
+}
